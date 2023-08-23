@@ -7,6 +7,9 @@
  * {
     margin: 0;
     padding: 0;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+    color: #333333;
 }
 
 
@@ -22,8 +25,81 @@
  * can style everything you need.
  */
 
-.hero {
-    /* ... */
+
+
+.hero h1{
+    font-size: 32px;
+    line-height: 1.25em;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.hero p{
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.fact span:first-child{
+    font-size: 56px;
+    font-weight: 800;
+    color: #E17D00;
+}
+
+.fact span:last-child{
+    font-size: 24px;
+    line-height: 1.5em;
+    font-weight: 800;
+}
+
+h2{
+    font-size: 32px;
+    line-height: 1.25em;
+    font-weight: 800;
+}
+
+h3{
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: 800;
+}
+
+.text p{
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.text ul{
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.text a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #E17D00;
+    text-decoration: none;
+}
+
+.text a:hover{
+    color: #F0BE81;
+}
+
+.hero-content{
+    max-width: 1280px;
+    margin: 0 24px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .hero h1{
+        font-size: 56px;
+    }
+    .hero p{
+        font-size: 24px;
+    }
+    .hero img{
+        filter: blur(4px);
+    }
 }
 
 /**

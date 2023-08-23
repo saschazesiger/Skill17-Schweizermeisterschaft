@@ -1,0 +1,22 @@
+{
+  "time": 1692729731,
+  "testResults": [
+    {
+      "group": "Array to markdown list",
+      "points": 1,
+      "maxPoints": 1,
+      "strategy": "add",
+      "manualCheck": false,
+      "tests": [
+        {
+          "name": "converts arrays to markdown lists",
+          "points": 1,
+          "maxPoints": 1,
+          "successful": true,
+          "required": false,
+          "manualCheck": false
+        }
+      ]
+    }
+  ]
+}
