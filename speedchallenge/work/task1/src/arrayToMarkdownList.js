@@ -20,10 +20,5 @@
  * @return {String}
  */
 const arrayToMarkdownList = (array) => {
-    let text = ""
-    array.forEach((id) => {
-        text = text +"* "+ id + "\n"
-    })
-    text = text.substring(0,text.length -1)
-    return text;
+    return 'TODO';
 }

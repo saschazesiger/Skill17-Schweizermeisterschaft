@@ -12,52 +12,52 @@
     border-color: green;
 }
 
-#task-1 img:last-child {
+#task-1 /* @todo */ {
     background-color: green;
     border-color: green;
 }
 
-#task-2 .trash {
+#task-2 /* @todo */ {
     background-color: green;
     border-color: green;
 }
 
-#task-3 img[data-trash] {
+#task-3 /* @todo */ {
     background-color: green;
     border-color: green;
 }
 
-#task-4 div img:first-child {
+#task-4 /* @todo */ {
     background-color: green;
     border-color: green;
 }
 
-#task-5 .patch img:first-child:not(img[src="assets/icons/turtle.svg"]):not(img[src="assets/icons/fish.svg"]) {
+#task-5 /* @todo */ {
     background-color: green;
     border-color: green;
 }
 
-#task-6 .patch + .patch .pink {
+#task-6 /* @todo */ {
     background-color: green;
     border-color: green;
 }
 
-#task-7 img[class^="trash"] {
+#task-7 /* @todo */ {
     background-color: green;
     border-color: green;
 }
 
-#task-8 .patch + .patch .pink + .pink:not(img[src="assets/icons/shrimp.svg"]) {
+#task-8 /* @todo */ {
     background-color: green;
     border-color: green;
 }
 
-#task-9 .patch + .patch + .patch img:not(img[src="assets/icons/turtle.svg"]):not(img[src="assets/icons/otter.svg"]) {
+#task-9 /* @todo */ {
     background-color: green;
     border-color: green;
 }
 
-#task-10 img:not(img[src="assets/icons/whale.svg"]):not(img[src="assets/icons/dolphin.svg"]):not(img[src="assets/icons/turtle.svg"]) {
+#task-10 /* @todo */ {
     background-color: green;
     border-color: green;
 }
